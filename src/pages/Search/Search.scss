@@ -3,7 +3,10 @@
     padding-top: 2rem;
 }
 
-.pokemon-name {
-    color: white;
-    font-size: 12px;
+.search-input {
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid rgba(0,0,0,0.15);
+    box-shadow: 0 2px 3px rgba(0,0,0,0.06);
+    &:focus-visible { outline: none }
 }
