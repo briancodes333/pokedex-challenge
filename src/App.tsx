@@ -1,8 +1,8 @@
-import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
-import './App.scss';
-import Search from './pages/Search/Search';
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
+import './App.scss'
+import Search from './pages/Search/Search'
 
-function App() {
+function App () {
   return (
     <BrowserRouter>
       <Routes>

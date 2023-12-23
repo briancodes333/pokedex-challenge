@@ -1,8 +1,8 @@
 export interface PokemonTypeInitialState {
-    allPokemon: undefined | genericPokemonType[];
+  allPokemon: undefined | genericPokemonType[]
 }
 
 export interface genericPokemonType {
-    name: string;
-    url: string;
+  name: string
+  url: string
 }
