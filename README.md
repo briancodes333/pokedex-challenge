@@ -36,5 +36,6 @@ This is an application that acts as a pokedex and uses the PokeAPI to gather dat
 - Better stying/UX: I focused more on making sure the logic was sound, and that everything worked as it should. If I was to spend more time on this, I would put a good amount of effort into coming up with a great design and layout. I would have loved to spent more time on the pokemon details page as well.
 - Evolution chain: I really wanted to do this, but wanted to keep the time spent within the timeframe recommended (a few hours of work). If I was to fully finish this as an application that I would publish, I would defintely have added this feature.
 - Add some test coverage: I typically like to add some test coverage to ensure the logic is sound and working as expected, but decided to skip this for this challenge due to time.
+- Fetching the images can be slow, so downloading them all and storing them locally could be a nice performance improvement. 
 
 
