@@ -1,0 +1,31 @@
+.recently-searched-container {
+    color: white;
+    text-transform: uppercase;
+}
+
+.recently-searched-title {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+
+}
+
+.history-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.history-link {
+    margin-right: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.search-name {
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+}

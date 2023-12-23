@@ -1,20 +1,20 @@
-import { useNavigate } from 'react-router-dom'
-import { type basicPokemonType, genericPokemonType } from '../../utils/Types'
-import './SearchResults.scss'
+import { useNavigate } from "react-router-dom";
+import { basicPokemonType, genericPokemonType } from "../../utils/Types";
+import "./SearchResults.scss";
 
 const SearchResults = ({ pokemons }: { pokemons: basicPokemonType[] }) => {
-  const navigate = useNavigate()
+    const navigate = useNavigate();
 
   return (
     <div>
         <div className='pokemon-card-container'>
             <div className='pokemon-card-grid'>
             {pokemons && pokemons.map((data: basicPokemonType) => (
-                <div
+                <div 
                     className="pokemon-card-item"
                     onClick={async () => {
-                      navigate(`/${data.id}`)
-                    }}>
+                        navigate(`/${data.id}`);
+                        }}>
                         <img
                             src={data.image}
                             alt=""
@@ -23,11 +23,11 @@ const SearchResults = ({ pokemons }: { pokemons: basicPokemonType[] }) => {
                         />
                     <div className='pokemon-name'>{data.name} #{data.id}</div>
                 </div>
-            ))}
+                ))}
             </div>
         </div>
     </div>
-  )
+    );
 }
 
-export default SearchResults
+export default SearchResults;
