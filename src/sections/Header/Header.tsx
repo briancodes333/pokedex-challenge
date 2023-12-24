@@ -3,7 +3,7 @@ import './Header.scss'
 // @ts-expect-error path is not being recognized
 import pokeball from '../../assets/images/pokeball.png'
 // @ts-expect-error path is not being recognized
-import logo from '../../assets/images/logo.png';
+import logo from '../../assets/images/logo.png'
 
 const Header = () => {
   const navigate = useNavigate()

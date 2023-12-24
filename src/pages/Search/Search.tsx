@@ -7,7 +7,7 @@ import { clearFilteredPokemon } from '../../app/slices/PokemonSlice'
 import SearchHistory from '../../components/SearchHistory/SearchHistory'
 import EmptyState from '../../components/EmptyState/EmptyState'
 // @ts-expect-error path is not being recognized
-import logo from '../../assets/images/logo.png';
+import logo from '../../assets/images/logo.png'
 import './Search.scss'
 
 const Search = () => {
